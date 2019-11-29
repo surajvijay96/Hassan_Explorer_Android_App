@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.surajv.project.near_me">
+
+
+    <android.support.constraint.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imageButton23"
+        android:layout_width="150dp"
+        android:layout_height="130dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton22"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/icon_restaurant"/>
+
+
+    <ImageView
+
+        android:id="@+id/imageButton22"
+        android:layout_width="150dp"
+        android:layout_height="130dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/icon_lodge"/>
+
+        <TextView
+
+            android:id="@+id/textView10"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="10dp"
+            android:text="Restaurants"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintEnd_toStartOf="@+id/textView11"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton23" />
+
+
+        <TextView
+
+            android:id="@+id/textView11"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Hotels/Lodges"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton23" />
+
+
+    <ImageView
+        android:id="@+id/imageButton25"
+        android:layout_width="150dp"
+        android:layout_height="130dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        android:src="@drawable/icon_hospital"
+        />
+
+    <ImageView
+        android:id="@+id/imageButton24"
+        android:layout_width="150dp"
+        android:layout_height="130dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/icon_fuel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+
+        <TextView
+
+            android:id="@+id/textView12"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="10dp"
+            android:text="Hospitals"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintEnd_toStartOf="@+id/textView13"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton25" />
+
+        <TextView
+
+            android:id="@+id/textView13"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Petrol Bunks"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton24" />
+
+
+
+
+    <ImageView
+        android:id="@+id/imageButton05"
+        android:layout_width="150dp"
+        android:layout_height="130dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton06"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12"
+        android:src="@drawable/icon_atm"
+        />
+
+    <ImageView
+        android:id="@+id/imageButton06"
+        android:layout_width="150dp"
+        android:layout_height="130dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/icon_shopping"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+
+        <TextView
+
+            android:id="@+id/textView05"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="10dp"
+            android:text="AMT's"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintEnd_toStartOf="@+id/textView06"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton05" />
+
+        <TextView
+
+            android:id="@+id/textView06"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Shopping Centres"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton06" />
+
+        <ImageView
+            android:id="@+id/imageButton07"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton08"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView05"
+            android:src="@drawable/icon_temple"
+            />
+
+        <ImageView
+            android:id="@+id/imageButton08"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/icon_pharmacy"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView06" />
+
+
+        <TextView
+
+            android:id="@+id/textView07"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="10dp"
+            android:text="Temples"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintEnd_toStartOf="@+id/textView08"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton07" />
+
+        <TextView
+
+            android:id="@+id/textView08"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Pharmacy"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton08" />
+
+
+        <ImageView
+            android:id="@+id/imageButton09"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/icon_airport"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton10"
+            app:layout_constraintHorizontal_bias="0.483"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView07" />
+
+        <ImageView
+            android:id="@+id/imageButton10"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/icon_bus_station_nearby"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView08" />
+
+
+        <TextView
+
+            android:id="@+id/textView09"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Airports"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintEnd_toStartOf="@+id/textView20"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton09" />
+
+        <TextView
+
+            android:id="@+id/textView20"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Bus Stations"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton10" />
+
+
+        <ImageView
+            android:id="@+id/imageButton11"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton12"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView09"
+            android:src="@drawable/icon_market" />
+
+        <ImageView
+            android:id="@+id/imageButton12"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/icon_movie"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+
+        <TextView
+
+            android:id="@+id/textView21"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Markets"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintEnd_toStartOf="@+id/textView22"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton11" />
+
+        <TextView
+
+            android:id="@+id/textView22"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Movies"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton12" />
+
+
+
+
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

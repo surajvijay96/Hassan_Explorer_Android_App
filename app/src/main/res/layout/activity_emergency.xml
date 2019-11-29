@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.surajv.project.emergency"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+     <android.support.constraint.ConstraintLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent">
+         <TableLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_marginBottom="8dp"
+             android:layout_marginEnd="8dp"
+             android:layout_marginStart="8dp"
+             android:layout_marginTop="8dp"
+             android:stretchColumns="1"
+             app:layout_constraintBottom_toBottomOf="parent"
+             app:layout_constraintEnd_toEndOf="parent"
+             app:layout_constraintStart_toStartOf="parent"
+             app:layout_constraintTop_toTopOf="parent">
+
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:text="Police Helpline Numbers"
+                 android:textSize="30dp"
+                 android:textStyle="bold" />
+
+             <TableRow>
+
+                 <TextView
+                     android:padding="3dip"
+                     android:text="Superintendent of Police"
+                     android:textSize="15dp" />
+
+                 <TextView
+                     android:autoLink="phone"
+                     android:gravity="right"
+                     android:linksClickable="true"
+                     android:padding="3dip"
+                     android:text="08172268410"
+                     android:textSize="15dp" />
+             </TableRow>
+
+             <TableRow>
+
+                 <TextView
+                     android:padding="3dip"
+                     android:text="Superintendent of Police(res)"
+                     android:textSize="15dp" />
+
+                 <TextView
+                     android:autoLink="phone"
+                     android:gravity="right"
+                     android:linksClickable="true"
+                     android:padding="3dip"
+                     android:text="08172268228"
+                     android:textSize="15dp" />
+             </TableRow>
+
+             <TableRow>
+
+                 <TextView
+                     android:padding="3dip"
+                     android:text="Police Control Room"
+                     android:textSize="15dp" />
+
+                 <TextView
+                     android:autoLink="phone"
+                     android:gravity="right"
+                     android:linksClickable="true"
+                     android:padding="3dip"
+                     android:text="08172268000"
+                     android:textSize="15dp" />
+             </TableRow>
+
+             <TableRow>
+
+                 <TextView
+                     android:padding="3dip"
+                     android:text="Police Wireless Control Room"
+                     android:textSize="15dp" />
+
+                 <TextView
+                     android:autoLink="phone"
+                     android:gravity="right"
+                     android:linksClickable="true"
+                     android:padding="3dip"
+                     android:text="08172268845"
+                     android:textSize="15dp" />
+             </TableRow>
+
+             <TableRow>
+
+                 <TextView
+                     android:padding="3dip"
+                     android:text="City Police Station"
+                     android:textSize="15dp" />
+
+                 <TextView
+                     android:autoLink="phone"
+                     android:gravity="right"
+                     android:linksClickable="true"
+                     android:padding="3dip"
+                     android:text="08172268333"
+                     android:textSize="15dp" />
+             </TableRow>
+
+             <TableRow>
+
+                 <TextView
+                     android:padding="3dip"
+                     android:text="Rural Police Station"
+                     android:textSize="15dp" />
+
+                 <TextView
+                     android:autoLink="phone"
+                     android:gravity="right"
+                     android:linksClickable="true"
+                     android:padding="3dip"
+                     android:text="08172268630"
+                     android:textSize="15dp" />
+             </TableRow>
+
+             <TableRow>
+
+                 <TextView
+                     android:padding="3dip"
+                     android:text="Traffic Police Station"
+                     android:textSize="15dp" />
+
+                 <TextView
+                     android:autoLink="phone"
+                     android:gravity="right"
+                     android:linksClickable="true"
+                     android:padding="3dip"
+                     android:text="08172268946"
+                     android:textSize="15dp" />
+             </TableRow>
+
+             <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:text="Police Station Numbers"
+                 android:textStyle="bold"
+                 android:textSize="30dp"/>
+
+             <TableRow>
+                 <TextView
+                     android:text="SP Office"
+                     android:padding="3dip"
+                     android:textSize="15dp"/>
+                 <TextView
+                     android:text="08172268845"
+                     android:gravity="right"
+                     android:padding="3dip"
+                     android:textSize="15dp"
+                     android:autoLink="phone"
+                     android:linksClickable="true"/>
+             </TableRow>
+
+             <TableRow>
+                 <TextView
+                     android:text="Town Police Station"
+                     android:padding="3dip"
+                     android:textSize="15dp"/>
+                 <TextView
+                     android:text="08172268333"
+                     android:gravity="right"
+                     android:padding="3dip"
+                     android:textSize="15dp"
+                     android:autoLink="phone"
+                     android:linksClickable="true"/>
+             </TableRow>
+
+             <TableRow>
+                 <TextView
+                     android:text="KR Puram Police Station"
+                     android:padding="3dip"
+                     android:textSize="15dp"/>
+                 <TextView
+                     android:text="08172268967"
+                     android:gravity="right"
+                     android:padding="3dip"
+                     android:textSize="15dp"
+                     android:autoLink="phone"
+                     android:linksClickable="true"/>
+             </TableRow>
+
+             <TableRow>
+                 <TextView
+                     android:text="Pension Mohalla Police Station"
+                     android:padding="3dip"
+                     android:textSize="15dp"/>
+                 <TextView
+                     android:text="08172272260"
+                     android:gravity="right"
+                     android:padding="3dip"
+                     android:textSize="15dp"
+                     android:autoLink="phone"
+                     android:linksClickable="true"/>
+             </TableRow>
+
+             <TableRow>
+                 <TextView
+                     android:text="Traffic Police Station"
+                     android:padding="3dip"
+                     android:textSize="15dp"/>
+                 <TextView
+                     android:text="08172272846"
+                     android:gravity="right"
+                     android:padding="3dip"
+                     android:textSize="15dp"
+                     android:autoLink="phone"
+                     android:linksClickable="true"/>
+             </TableRow>
+
+             <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:text="Fire Helpline Numbers"
+                 android:textStyle="bold"
+                 android:textSize="30dp"/>
+
+             <TableRow>
+                 <TextView
+                     android:text="District Fire Officer"
+                     android:padding="3dip"
+                     android:textSize="15dp"/>
+                 <TextView
+                     android:text="08172248448"
+                     android:gravity="right"
+                     android:padding="3dip"
+                     android:textSize="15dp"
+                     android:autoLink="phone"
+                     android:linksClickable="true"/>
+             </TableRow>
+
+             <TableRow>
+                 <TextView
+                     android:text="Fire Station"
+                     android:padding="3dip"
+                     android:textSize="15dp"/>
+                 <TextView
+                     android:text="08172268608"
+                     android:gravity="right"
+                     android:padding="3dip"
+                     android:textSize="15dp"
+                     android:autoLink="phone"
+                     android:linksClickable="true"/>
+             </TableRow>
+
+         <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="Ambulance Helpline Numbers"
+                     android:textSize="30dp"
+                     android:textStyle="bold" />
+
+                 <TableRow>
+
+                     <TextView
+                         android:padding="3dip"
+                         android:text="Emergency Ambulance"
+                         android:textSize="15dp" />
+
+                     <TextView
+                         android:text="102"
+                         android:textColor="#418bec"
+                         android:gravity="right"
+                         android:padding="3dip"
+                         android:textSize="15dp"
+                         android:autoLink="phone"
+                         android:linksClickable="true" />
+                 </TableRow>
+
+
+             <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:text="Women Helpline Numbers"
+                 android:textStyle="bold"
+                 android:textSize="30dp"/>
+
+             <TableRow>
+                 <TextView
+                     android:text="Helpline Number"
+                     android:padding="3dip"
+                     android:textSize="15dp"/>
+                 <TextView
+                     android:text="1091"
+                     android:textColor="#418bec"
+                     android:gravity="right"
+                     android:padding="3dip"
+                     android:textSize="15dp"
+                     android:autoLink="phone"
+                     android:linksClickable="true"/>
+             </TableRow>
+
+             <TableRow>
+                 <TextView
+                     android:text="Deputy Director \n (Women and Child Welfare)"
+                     android:padding="3dip"
+                     android:textSize="15dp"/>
+                 <TextView
+                     android:text="08172267218"
+                     android:gravity="right"
+                     android:padding="3dip"
+                     android:textSize="15dp"
+                     android:autoLink="phone"
+                     android:linksClickable="true"/>
+             </TableRow>
+
+             <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:text="Hospitals and Nursing Home Helpline Numbers"
+                 android:textStyle="bold"
+                 android:textSize="30dp"/>
+
+             <TableRow>
+                 <TextView
+                     android:text="Government Hospital"
+                     android:padding="3dip"
+                     android:textSize="15dp"/>
+                 <TextView
+                     android:text="08172268444"
+                     android:gravity="right"
+                     android:padding="3dip"
+                     android:textSize="15dp"
+                     android:autoLink="phone"
+                     android:linksClickable="true"/>
+             </TableRow>
+
+             <TableRow>
+                 <TextView
+                     android:text="CSI Redfern Memorial Hospital"
+                     android:padding="3dip"
+                     android:textSize="15dp"/>
+                 <TextView
+                     android:text="08172266288"
+                     android:gravity="right"
+                     android:padding="3dip"
+                     android:textSize="15dp"
+                     android:autoLink="phone"
+                     android:linksClickable="true"/>
+             </TableRow>
+             <TableRow>
+                 <TextView
+                     android:text="Dange Hospital"
+                     android:padding="3dip"
+                     android:textSize="15dp"/>
+                 <TextView
+                     android:text="08172265236"
+                     android:gravity="right"
+                     android:padding="3dip"
+                     android:textSize="15dp"
+                     android:autoLink="phone"
+                     android:linksClickable="true"/>
+             </TableRow>
+             <TableRow>
+                 <TextView
+                     android:text="Hemavathi Hospital"
+                     android:padding="3dip"
+                     android:textSize="15dp"/>
+                 <TextView
+                     android:text="08172261204"
+                     android:gravity="right"
+                     android:padding="3dip"
+                     android:textSize="15dp"
+                     android:autoLink="phone"
+                     android:linksClickable="true"/>
+             </TableRow>
+             <TableRow>
+                 <TextView
+                     android:text="Janatha Hospital"
+                     android:padding="3dip"
+                     android:textSize="15dp"/>
+                 <TextView
+                     android:text="08172268886"
+                     android:gravity="right"
+                     android:padding="3dip"
+                     android:textSize="15dp"
+                     android:autoLink="phone"
+                     android:linksClickable="true"/>
+             </TableRow>
+             <TableRow>
+                 <TextView
+                     android:text="Mangala Hospital"
+                     android:padding="3dip"
+                     android:textSize="15dp"/>
+                 <TextView
+                     android:text="08172267236"
+                     android:gravity="right"
+                     android:padding="3dip"
+                     android:textSize="15dp"
+                     android:autoLink="phone"
+                     android:linksClickable="true"/>
+             </TableRow>
+             <TableRow>
+                 <TextView
+                     android:text="Mani Speciality Hospital"
+                     android:padding="3dip"
+                     android:textSize="15dp"/>
+                 <TextView
+                     android:text="08172260034"
+                     android:gravity="right"
+                     android:padding="3dip"
+                     android:textSize="15dp"
+                     android:autoLink="phone"
+                     android:linksClickable="true"/>
+             </TableRow>
+             <TableRow>
+                 <TextView
+                     android:text="Rajeev Hospital"
+                     android:padding="3dip"
+                     android:textSize="15dp"/>
+                 <TextView
+                     android:text="08172251770"
+                     android:gravity="right"
+                     android:padding="3dip"
+                     android:textSize="15dp"
+                     android:autoLink="phone"
+                     android:linksClickable="true"/>
+             </TableRow>
+             <TableRow>
+                 <TextView
+                     android:text="Jayashree Nursing Home"
+                     android:padding="3dip"
+                     android:textSize="15dp"/>
+                 <TextView
+                     android:text="08172269128"
+                     android:gravity="right"
+                     android:padding="3dip"
+                     android:textSize="15dp"
+                     android:autoLink="phone"
+                     android:linksClickable="true"/>
+             </TableRow>
+             <TableRow>
+                 <TextView
+                     android:text="Laxmi Nursing Home"
+                     android:padding="3dip"
+                     android:textSize="15dp"/>
+                 <TextView
+                     android:text="08172265578"
+                     android:gravity="right"
+                     android:padding="3dip"
+                     android:textSize="15dp"
+                     android:autoLink="phone"
+                     android:linksClickable="true"/>
+             </TableRow>
+             <TableRow>
+                 <TextView
+                     android:text="Ramkrishna Nursing Home"
+                     android:padding="3dip"
+                     android:textSize="15dp"/>
+                 <TextView
+                     android:text="08172267446"
+                     android:gravity="right"
+                     android:padding="3dip"
+                     android:textSize="15dp"
+                     android:autoLink="phone"
+                     android:linksClickable="true"/>
+             </TableRow>
+
+             <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:text="Blood Bank Numbers"
+                 android:textStyle="bold"
+                 android:textSize="30dp"/>
+
+             <TableRow>
+                 <TextView
+                     android:text="Sri Chamarajendra Disrtict\nHospital Blood Bank"
+                     android:padding="3dip"
+                     android:textSize="15dp"/>
+                 <TextView
+                     android:text="08172250330"
+                     android:gravity="right"
+                     android:padding="3dip"
+                     android:textSize="15dp"
+                     android:autoLink="phone"
+                     android:linksClickable="true"/>
+             </TableRow>
+
+             <TableRow>
+                 <TextView
+                     android:text="Jeeva Raksha Blood Bank"
+                     android:padding="3dip"
+                     android:textSize="15dp"/>
+                 <TextView
+                     android:text="08172262047"
+                     android:gravity="right"
+                     android:padding="3dip"
+                     android:textSize="15dp"
+                     android:autoLink="phone"
+                     android:linksClickable="true"/>
+             </TableRow>
+
+             <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:text="Eye Hospital and Store Numbers"
+                 android:textStyle="bold"
+                 android:textSize="30dp"/>
+
+             <TableRow>
+                 <TextView
+                     android:text="Vasan Eye Care Hospital\n\n"
+                     android:padding="3dip"
+                     android:textSize="15dp"/>
+                 <TextView
+                     android:text="08172266900"
+                     android:gravity="right"
+                     android:padding="3dip"
+                     android:textSize="15dp"
+                     android:autoLink="phone"
+                     android:linksClickable="true"/>
+             </TableRow>
+
+             <TableRow>
+                 <TextView
+                     android:text="Eye Optics"
+                     android:padding="3dip"
+                     android:textSize="15dp"/>
+                 <TextView
+                     android:text="08147821496"
+                     android:gravity="right"
+                     android:padding="3dip"
+                     android:textSize="15dp"
+                     android:autoLink="phone"
+                     android:linksClickable="true"/>
+             </TableRow>
+
+
+
+
+
+         </TableLayout>
+         </android.support.constraint.ConstraintLayout>
+
+
+</ScrollView>
+

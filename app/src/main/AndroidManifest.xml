@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.surajv.project">
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Hassan Explorer"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".tour"
+            android:label="Places"/>
+        <activity android:name=".restaurant"
+            android:label="Restaurants"/>
+        <activity android:name=".hotel"
+            android:label="Hotels/Lodges"/>
+        <activity android:name=".hospital"
+            android:label="Hospitals"/>
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".tour_belur"
+            android:label="Belur"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".near_me"
+            android:label="Near Me"/>
+        <activity android:name=".developers"
+            android:label="Developers"/>
+        <activity android:name=".help"
+            android:label="Help"/>
+        <activity android:name=".emergency"
+            android:label="Emergency Contacts"></activity>
+    </application>
+
+</manifest>

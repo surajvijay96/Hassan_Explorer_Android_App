@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.surajv.project.tour">
+
+    <android.support.constraint.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageButton
+            android:id="@+id/imageButton23"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton22"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:src="@drawable/tour_bahu"/>
+
+
+        <ImageButton
+
+            android:id="@+id/imageButton22"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:src="@drawable/tour_kedareshwara"/>
+
+        <TextView
+
+            android:id="@+id/textView10"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="10dp"
+            android:text="Gommateshwara"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintEnd_toStartOf="@+id/textView11"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton23"
+            />
+
+
+        <TextView
+
+            android:id="@+id/textView11"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Kedareswara Temple"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton23"
+            />
+
+
+        <ImageButton
+            android:id="@+id/imageButton25"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton24"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView10"
+            android:src="@drawable/tour_shettihalli"
+            />
+
+        <ImageButton
+            android:id="@+id/imageButton24"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/tour_bisile"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+
+        <TextView
+
+            android:id="@+id/textView12"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="10dp"
+            android:text="Shettihalli Church"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintEnd_toStartOf="@+id/textView13"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton25"
+            />
+
+        <TextView
+
+            android:id="@+id/textView13"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Bisile Ghat"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton24"
+            />
+
+
+
+
+        <ImageButton
+            android:id="@+id/imageButton05"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton06"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView12"
+            android:src="@drawable/tour_lakshminarasimha"
+            />
+
+        <ImageButton
+            android:id="@+id/imageButton06"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/tour_belurchannakeshava"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+
+        <TextView
+
+            android:id="@+id/textView05"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="10dp"
+            android:text="Lakshmi Narasimha Temple"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintEnd_toStartOf="@+id/textView06"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton05"
+            />
+
+        <TextView
+
+            android:id="@+id/textView06"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Chennakeshava Temple"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton06"
+            />
+
+
+
+        <ImageButton
+            android:id="@+id/imageButton07"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton08"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView05"
+            android:src="@drawable/tour_hoysaleshwara"
+            />
+
+        <ImageButton
+            android:id="@+id/imageButton08"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/tour_chandragirihill"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView06" />
+
+
+        <TextView
+
+            android:id="@+id/textView07"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="10dp"
+            android:text="Hoysaleswara Temple"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintEnd_toStartOf="@+id/textView08"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton07"
+            />
+
+        <TextView
+
+            android:id="@+id/textView08"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Chandragiri Hill"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton08"
+            />
+
+
+
+        <ImageButton
+            android:id="@+id/imageButton50"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton51"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView07"
+            android:src="@drawable/tour_hassanamba"
+            />
+
+        <ImageButton
+            android:id="@+id/imageButton51"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/tour_gorurdam"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView08"
+            />
+
+        <TextView
+
+            android:id="@+id/textView52"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="10dp"
+            android:text="Hasanamba Temple"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintEnd_toStartOf="@+id/textView53"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton50"
+            />
+
+        <TextView
+
+            android:id="@+id/textView53"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Gorur Dam"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton51"
+            />
+
+
+        <ImageButton
+            android:id="@+id/imageButton0011"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton0012"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView52"
+            android:src="@drawable/tour_bucesvaratemple"
+            />
+
+
+        <ImageButton
+            android:id="@+id/imageButton0012"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/tour_sriramdevarakatte"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView53"
+            />
+
+
+        <TextView
+
+            android:id="@+id/textView0011"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="10dp"
+            android:text="Bucesvara Temple"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintEnd_toStartOf="@+id/textView0012"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton0011"
+            />
+
+        <TextView
+
+            android:id="@+id/textView0012"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Sri Ramadevarakatte"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton0012"
+            />
+
+
+        <ImageButton
+            android:id="@+id/imageButton0013"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton0014"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView0011"
+            android:src="@drawable/tour_ishwaratemple"
+            />
+
+
+        <ImageButton
+            android:id="@+id/imageButton0014"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/tour_vijayadurga"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView0012"
+            />
+
+
+        <TextView
+
+            android:id="@+id/textView0013"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="10dp"
+            android:text="Ishwara Temple"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintEnd_toStartOf="@+id/textView0014"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton0013"
+            />
+
+        <TextView
+
+            android:id="@+id/textView0014"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Sri Vijayadurga Kshetra"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton0014"
+            />
+
+
+
+    </android.support.constraint.ConstraintLayout>
+
+
+</ScrollView>

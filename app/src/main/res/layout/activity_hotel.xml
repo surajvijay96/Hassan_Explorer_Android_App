@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.surajv.project.hotel">
+
+    <android.support.constraint.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/imageButton23"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton22"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:src="@drawable/hotel_apoorva"/>
+
+
+        <ImageButton
+
+            android:id="@+id/imageButton22"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:src="@drawable/hotel_kps"/>
+
+        <TextView
+
+            android:id="@+id/textView10"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="10dp"
+            android:text="Apoorva hotel,hassan"
+            android:layout_marginRight="12dp"
+            android:layout_marginLeft="8dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintEnd_toStartOf="@+id/textView11"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton23"
+            />
+
+
+        <TextView
+
+            android:id="@+id/textView11"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:text="KPS comfort,Arsikere"
+            android:layout_marginRight="20dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton23"
+            />
+
+
+        <ImageButton
+            android:id="@+id/imageButton25"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton24"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView10"
+            android:src="@drawable/hotel_ashok"
+            />
+
+        <ImageButton
+            android:id="@+id/imageButton24"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/hotel_vishnu"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+
+        <TextView
+
+            android:id="@+id/textView12"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginLeft="8dp"
+            android:text="Ashoka hotel,Hassan"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintEnd_toStartOf="@+id/textView13"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton25"
+            />
+
+        <TextView
+
+            android:id="@+id/textView13"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:text="Vishnu Regency,Belur"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton24"
+            />
+
+
+
+
+        <ImageButton
+            android:id="@+id/imageButton05"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton06"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView12"
+            android:src="@drawable/hotel_chiranth"
+            />
+
+        <ImageButton
+            android:id="@+id/imageButton06"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/hotel_durga"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+
+        <TextView
+
+            android:id="@+id/textView05"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginLeft="8dp"
+            android:text="Chiranth Lodge,Hassan"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintEnd_toStartOf="@+id/textView06"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton05"
+            />
+
+        <TextView
+
+            android:id="@+id/textView06"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:text="Durga International,Sakleshpur"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton06"
+            />
+
+
+
+        <ImageButton
+            android:id="@+id/imageButton07"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton08"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView05"
+            android:src="@drawable/hotel_kadamba"
+            />
+
+        <ImageButton
+            android:id="@+id/imageButton08"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/hotel_krishna"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView06" />
+
+
+        <TextView
+
+            android:id="@+id/textView07"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginLeft="8dp"
+            android:text="Kadamba comforts,Hassan"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintEnd_toStartOf="@+id/textView08"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton07"
+            />
+
+        <TextView
+
+            android:id="@+id/textView08"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Sri Krishna,Hassan"
+            android:layout_marginRight="20dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton08"
+            />
+
+
+
+        <ImageButton
+            android:id="@+id/imageButton50"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton51"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView07"
+            android:src="@drawable/hotel_mayur"
+            />
+
+        <ImageButton
+            android:id="@+id/imageButton51"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/hotel_palguni"
+            android:layout_marginRight="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView08"
+            />
+
+        <TextView
+
+            android:id="@+id/textView52"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="10dp"
+            android:text="Mayura International,Hassan"
+            android:layout_marginRight="12dp"
+            android:layout_marginLeft="8dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintEnd_toStartOf="@+id/textView53"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton50"
+            />
+
+        <TextView
+
+            android:id="@+id/textView53"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Palguni Residency,Hassan"
+            android:layout_marginRight="20dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton51"
+            />
+
+
+        <ImageButton
+            android:id="@+id/imageButton0011"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton0012"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView52"
+            android:src="@drawable/hotel_aadhya"
+            />
+
+
+        <ImageButton
+            android:id="@+id/imageButton0012"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/hotel_southern_star"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView53"
+            />
+
+
+        <TextView
+
+            android:id="@+id/textView0011"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="8dp"
+            android:text="Aadya Comforts,Channarayapatna"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintEnd_toStartOf="@+id/textView0012"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton0011"
+            />
+
+        <TextView
+
+            android:id="@+id/textView0012"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Southern Star,Hassan"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton0012"
+            />
+
+
+        <ImageButton
+            android:id="@+id/imageButton0013"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton0014"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView0011"
+            android:src="@drawable/hotel_ss"
+            />
+
+
+        <ImageButton
+            android:id="@+id/imageButton0014"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/hotel_suvarna"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView0012"
+            />
+
+
+        <TextView
+
+            android:id="@+id/textView0013"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="10dp"
+            android:text="S S Residency,Hassan"
+            android:layout_marginRight="12dp"
+            android:layout_marginLeft="8dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintEnd_toStartOf="@+id/textView0014"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton0013"
+            />
+
+        <TextView
+
+            android:id="@+id/textView0014"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Suvarna,Hassan"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="8dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton0014"
+            />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+
+</ScrollView>
